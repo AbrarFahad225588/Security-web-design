@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* body{
+    background-color: rgb(16, 16, 28);
+} */
+
+/* header section */
+
+.nav-logo{
+    margin-left:0px;
+}
+header{
+    background-image: url(images/Div\ [banner]\(1\).png);
+    background-size: cover;
+}
+nav{
+
+    display: flex;
+    justify-content: space-around;
+}
+.lists{
+    color: goldenrod;
+    list-style: none;
+    display: flex;
+    right: 30px;
+    justify-content: space-around;
+ 
+}
+li:hover{
+color: rgb(252, 244, 244);
+
+cursor: pointer;
+}
+.li{
+    padding: 20px;
+}
+
+/* banner section */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-h4{
+    color: goldenrod;
+}
+.text{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+
+}
+.btn{
+    background-color: rgb(228, 166, 85,.8);
+    font-size: 10px;
+    border: none;
+    border-radius:5px ;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: aqua;
+} 
+.main-logo-img{
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(195, 239, 247);
+}
+.icon{
+    
+    margin :20px
+}
+.servises{
+
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+
+}
+.sbc{
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+}
+
+.servise-box{
+    text-align: center;
+    margin: 10px;
+   border: 2px solid gray;
+}
+.main-footer{
+    display: flex;
+    text-align: left;
+    width: cover;
+   
+
+}
+
+.main-footer-info{
+    text-align: left;
+    font-size: 45px;
+    width: 50%;
+
+}
+.img-container-main-footer{
+    width: 50%;
+}
+.hire-us-btn{
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+.main-footer-info-text{
+    font-size: small;
+}
+.color-hobe{
+    color: goldenrod;
+}
+.footer{
+    background-color: black;
+    padding: 50px;
+    color:white;
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-around;
+}
+
+.logo-of-security-manager{
+    display: flex;
+    align-items: center;
+}
+.footer-h3{
+    color: goldenrod;
+}
+.footer h2{
+    color: goldenrod;
+}
